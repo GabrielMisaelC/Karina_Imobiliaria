@@ -1,0 +1,138 @@
+*{
+    margin: 0px; /*retirando todas as margens*/
+    padding: 0px; /* retirando os espaços internos*/
+    font-size: 100%; /*assim se aproveita o maximo dela*/
+   /* border: none; /*retirando bordas padrão*/
+    /*outline:none; /*bordas do formulario*/
+    box-sizing: border-box;/**/
+    font-family: 'Lato';
+    
+}
+
+body{
+    background-color:#ffffff ;
+}
+
+a{
+    text-decoration: none;
+}
+ul {
+    list-style: none;
+}
+#titulo_topo{
+    width: 100%;
+    background-color: #ff0000;
+    height: 70px;
+    border-bottom: solid 10px #aa0000;
+}
+
+#titulo_topo h1{
+    color: #ffff;
+    font-family: 'Lato';
+    padding-top: 20px;
+    padding-left: 45%;
+    font-size: 2em;
+}
+#tabela_h1 h1{
+    font-size: 48px;
+}
+#usuario {
+    padding-left: 20px;
+}
+#usuario p a{
+    text-decoration: none;
+    background: #e84118;
+    color: #fff;
+    font-weight: bold;
+    padding: 8px 8px 8px 8px;
+    border-radius: 6px 6px 4px 4px;
+    margin-bottom: 40px;
+}
+#usuario p a i{
+    color: #b33939;
+    padding-right: 10px;
+}
+#esquerdo{
+    float: left;
+    width: 15%;
+    margin-left: 1.3%;
+    margin-top: 2%;
+}
+#esquerdo #sessao{
+    background-color: #ff0000;
+    border-radius: 10px 10px 13px 13px;
+}
+#esquerdo #sessao h4{
+    background-color: #aa0000;
+    color: #ffffff;
+    padding: 1%;
+    padding-left: 10px;
+    border-radius: 14px 14px 0px 0px;
+    font-family: 'Lato';
+    font-weight: bold;
+    font-size: 1.2em;
+    
+}
+#esquerdo #sessao ul{
+    margin-bottom: 8px;
+    border-radius: 10px 10px 13px 13px;
+}
+#esquerdo #sessao ul li a{
+    font-family: 'Lato';
+    color: #ffffff;
+    padding-left: 8px;
+    font-weight:400;
+}
+#esquerdo #sessao li:hover{
+    background-color:#537ffa;
+    border-radius: 10px 10px 13px 13px;
+    width: 100%;
+    color: #ffffff; 
+    font-weight: bold;
+}
+#esquerdo #sessao li a:hover{
+    width: 100%;
+    color: #ffffff; 
+    font-weight: bold;
+}
+
+
+#direito{
+    float: left;
+    width: 60%;
+    margin-left: 10%;
+    margin-top: 2%;
+}
+#direito table{
+    width: 100%;
+    text-align: center;
+    background-color: #353b48;
+    outline: none
+}
+
+#rodape {    
+background-color: #ff0000;
+width: 100%;
+float: left;
+padding: 1% 2%;
+text-align: center;
+margin-top: 24%;
+border-top: solid 8px #aa0000;
+
+}
+#rodape a{
+font-size: 1.7em;
+color: #FFF;
+margin-right: 3%;
+opacity: 0.7;
+}
+#rodape p{
+    margin-top: 3%;
+    color: #FFF;
+}
+#rodape a:last-child{
+margin-right: 0;  
+}
+#rodape a:hover{
+    opacity: 1;
+}
